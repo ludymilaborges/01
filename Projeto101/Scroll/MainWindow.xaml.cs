@@ -180,7 +180,7 @@ namespace Scroll
             {    
                 cont = 0;            
                 //MessageBox.Show(comando);
-                portaSerial.Write(comando);
+                portaSerial.Write(comando); // Sem comentários.
                 timer.Enabled = false;
                 timer.Stop();
             }
